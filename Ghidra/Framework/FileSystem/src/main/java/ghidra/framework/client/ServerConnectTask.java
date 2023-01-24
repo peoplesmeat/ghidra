@@ -275,7 +275,7 @@ class ServerConnectTask extends Task {
 				}
 			}
 
-			String serverName = getPreferredHostname(server.getServerName());
+			String serverName = server.getServerName(); 
 			AnonymousCallback onlyAnonymousCb = null;
 			while (true) {
 				try {
